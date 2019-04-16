@@ -1,0 +1,157 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#ADD8E6;
+	}
+
+.Container {
+	width:800px;
+	height:auto;
+	clear:both;
+	overflow:auto;
+	margin:60px auto;
+	background-color:#F5F5F5;
+	}
+
+.Header{height:100px;}
+.Menu{height:50px;}
+
+.LeftBody{
+	width:350px;
+	float:left;
+	height:400px;
+	}
+	
+.RightBody{
+	width:450px;
+	float:right;
+	height:auto;
+	}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+.FormElement{
+	width: 350px;
+	margin: 6px auto;
+	height:40px;
+}
+
+.TFeild{
+	height:40px;
+	width:300px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	margin: 10px;
+}
+
+.button{
+	width:150px;
+	height: 40px;
+	border: 0px solid;
+	background-color: lightblue;
+	margin: 10px;
+}
+
+.button:hover{
+	background-color: gray;
+	color:;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 12px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.h1 {
+	font-size:12px;
+}
+
+/* containers */
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+/* Clear floats */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Style images */
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+    float: left;
+    color: #999;
+}
+
+
+
+
+
+
+
+	
+	
